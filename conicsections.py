@@ -158,14 +158,8 @@ class ConicSection:
      #    :return:
      #    """
      #    pass
-#
-# p = ConicSection(3, -2, -1, -6, 10, -9)
-# print(p.algebraic_form())
-# print(p.is_degenerate())
-#
-# print(p.degen_type())
-#
-#
+
+
 
 
 o = ConicSection(1, -1, -1, -1, 1, -1)
