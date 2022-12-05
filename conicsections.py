@@ -31,7 +31,7 @@ class Point:
 class ConicSection:
     """A conic is a plane curve given by a quadratic equation.
    A real (affine) conic is a curve C ⊂ R^2 given by a quadratic equation of the
-       form  """
+       form Ax^2 + B xy+ Cy^2 + Dx + Ey + F =0 """
     def __init__(self, A, B, C, D, E, F):
         self.A = A
         self.B = B
